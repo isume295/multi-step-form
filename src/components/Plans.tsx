@@ -64,7 +64,7 @@ export const Plans = () => {
           </div>
         </Plan>
       </PlanContainer>
-      <ToggleButton p={['5px 5px', '5px 5px', '15px 15px', '15px 15px']}>
+      <ToggleButton p={['5px 5px', '5px 5px', '5px 5px', '5px 5px']}>
         <span className="active">Monthly</span>
         <button>
           <MdToggleOff />
@@ -110,7 +110,6 @@ const Plan = styled.div<PlanProps>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
   width: 100%;
   border: 1px solid #cdd6e6;
   border-radius: 10px;
@@ -134,7 +133,6 @@ const Plan = styled.div<PlanProps>`
 const ToggleButton = styled.div<PlanProps>`
   width: 100%;
   background-color: rgba(205, 214, 230, 0.4);
-  /* padding: 15px 15px; */
   display: flex;
   justify-content: center;
   align-items: center;
